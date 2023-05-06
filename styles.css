@@ -1,34 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Nanum+Myeongjo&family=Permanent+Marker&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
-.header{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: aquamarine;
+
+.sidebar{
+    background-color: red;
+    width: 10vw;
+    font-family: 'Fira Sans', sans-serif;
     
 }
-.heading:hover{
-    background-color: aliceblue;
-    color: brown;
+.sidebar nav{
+   padding: 72px;
 
 }
-
-.list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sidebar nav ul{
     list-style: none;
-    
-    
-
 }
-.list li{
-    padding: 8px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.list li:hover{
-    background-color: black;
-    color: white;
-    border-radius: 10px;
 
+.main{
+    background-color: yellow;
+    width: 90vw;
+    
+}
+
+.container{
+    display: flex;
 }
