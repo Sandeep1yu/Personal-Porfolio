@@ -7,8 +7,8 @@
 }
 
 .sidebar{
-    background-color: rgb(144, 132, 132);
-    width: 10vw;
+    background-color: rgb(239, 234, 234);
+    width: 15vw;
     font-family: 'Fira Sans', sans-serif;
     
 }
@@ -20,6 +20,15 @@
     list-style: none;
     font-size: 30px;
     padding: 33px 0;
+}
+.sidebar nav  li a{
+    text-decoration: none;
+    color: rgb(8, 13, 14);
+}
+
+.sidebar nav  li a:hover{
+    color: rgb(12, 102, 37);
+    transition: all .4s linear;
 }
 
 .main{
@@ -68,7 +77,7 @@
 .buttons{
     margin-top: 25px;
 }
-button{
+.buttons button{
     padding: 9px 14px;
     border-radius: 22px;
     background-color: black;
@@ -76,6 +85,17 @@ button{
     font-family: cursive;
     font-weight: bold;
     font-size: 21px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.buttons button:active{
+    color: yellow;
+    background-color: pink;
 }
 
 .devPic img{
