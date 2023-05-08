@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Nanum+Myeongjo&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Nanum+Myeongjo&family=Permanent+Marker&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container h1{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.blogItem{
+    margin: 20px;
+}
+.blogItem h2{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+    
+}
+button{
+    padding: 3px 5px;
+    border-radius: 22px;
+    background-color: rgb(13, 145, 15);
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
