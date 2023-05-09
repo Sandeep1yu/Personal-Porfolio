@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Nanum+Myeongjo&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Nanum+Myeongjo&family=Permanent+Marker&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    margin: 12px;
+}
+h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+    padding: 10px;
+
+
+}
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 5px;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    padding: 10px;
+
+    
+}
+.skills {
+    width: 160px;
+    height: 9px;
+    background-color: red;
+    
+}
+
+.hundred{
+    width: 270px;
+    background-color: rgb(208, 113, 23);
+}
+.sevent5{
+    width: 250;
+    background-color: black;
+}
+.sixt5{
+    width: 211px;
+    background-color: greenyellow;
+}
+
+.fifty{
+    width: 190px;
+    background-color: blue;
+}
+
+.t5{
+    width: 240px;
+    background-color: violet;
+}
+
