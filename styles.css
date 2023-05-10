@@ -8,8 +8,10 @@
 
 .sidebar{
     background-color: rgb(239, 234, 234);
-    width: 15vw;
+    /* width: 15vw; */
     font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.4s ease-in;
+    position: absolute;
     
 }
 .sidebar nav{
@@ -34,6 +36,7 @@
 .main{
     /* background-color: yellow; */
     width: 90vw;
+    padding:20px;
     
 }
 
@@ -53,12 +56,15 @@
 
 .devInfo{
     display: flex;
+    /* flex-wrap:wrap; */
     justify-content: center;
     flex-direction: column;
     font-family: 'Source Code Pro', monospace;
 
 }
-
+.devPic{
+    display: none;
+}
 .hello{
     font-size: 55px;
 }
@@ -102,3 +108,31 @@
     width: 270px;
     
 }
+
+
+@media (max-width:1615px) {
+    *{
+        /* background-color: rgb(225, 149, 149); */
+    }
+    
+    .sidebar{
+        /* transform: translate(-443px, 0px); */
+        /* position: absolute; */
+    }
+}
+
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.fa-xmark{
+    margin-left: 105px;
+}
+
+.sidebar-hide{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
