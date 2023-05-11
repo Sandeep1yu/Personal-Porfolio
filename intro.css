@@ -20,7 +20,10 @@ p{
 }
 h2{
     font-family: 'Fira Sans', sans-serif;
-    margin-top: 5px;
+    margin-top: 10px;
+}
+.top{
+    margin-top: 40px;
 }
 
 .skillContainer{
@@ -35,6 +38,17 @@ h2{
     padding: 10px;
 
     
+}
+
+.project{
+    list-style: none;
+   font-family: 'Source Code Pro', monospace;
+}
+.project li{
+    margin: 10px;
+    font-weight: 900;
+    border-style: none;
+
 }
 .skills {
     width: 160px;
