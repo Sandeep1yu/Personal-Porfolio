@@ -12,6 +12,7 @@
     font-family: 'Fira Sans', sans-serif;
     transition: transform 0.4s ease-in;
     position: absolute;
+    height: 100vh;
     
 }
 .sidebar nav{
@@ -49,12 +50,13 @@
     /* background-color: rgb(17, 179, 244); */
     height: 70vh;
     width: 80vw;
-    margin: 100px auto;
+    /* margin: 100px auto; */
     display: flex;
     justify-content: space-around;
 }
 
 .devInfo{
+    font-size: 16px;
     display: flex;
     /* flex-wrap:wrap; */
     justify-content: center;
@@ -62,15 +64,13 @@
     font-family: 'Source Code Pro', monospace;
 
 }
-.devPic{
-    display: none;
-}
+
 .hello{
-    font-size: 55px;
+    font-size: 3em;
 }
 
 .name{
-    font-size: 60px;
+    font-size: 3em;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
     
@@ -78,10 +78,11 @@
 }
 
 .about{
-    font-size: 50px;
+    font-size: 3em;
 }
 .buttons{
-    margin-top: 25px;
+    margin-top: 2.5em;
+    font-size: 8px;
 }
 .buttons button{
     padding: 9px 14px;
@@ -114,12 +115,26 @@
     *{
         /* background-color: rgb(225, 149, 149); */
     }
+
+    .devInfo{
+        font-size: 10px;
+    }
+
+    .intro, .blogContainer, .contactform{
+        margin: 50px 8px;
+    }
     
-    .sidebar{
-        /* transform: translate(-443px, 0px); */
-        /* position: absolute; */
+
+    .devPic{
+        display: none;
+    }
+
+    .buttons{
+        font-size: 6px;
     }
 }
+
+
 
 .hamburger{
     cursor: pointer;
@@ -129,6 +144,9 @@
 }
 .fa-xmark{
     margin-left: 105px;
+}
+.fa-bar{
+    margin-top: 20px;
 }
 
 .sidebar-hide{
